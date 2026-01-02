@@ -3,6 +3,12 @@ from pathlib import Path
 
 AUDIO_PATH = "sample_voice_telugu.wav"   
 WHISPER_MODEL = "turbo"           
+# use base - model for faster but less accurate results
+# use small - model for a balance between speed and accuracy
+# use medium - model for better accuracy but slower speed
+# use these models if running on local CPU as they are less resource draining
+# two other models are large/large-v2 and turbo
+# but these two are hevery resource draining and may crash pc.
 
 OUTPUT_DIR = Path("outputs")
 OUTPUT_DIR.mkdir(exist_ok=True)
