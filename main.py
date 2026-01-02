@@ -1,7 +1,7 @@
 import whisper
 from pathlib import Path
 
-AUDIO_PATH = "C:/Users/dalve/Desktop/E2E project/23774605_Sampradayam.mp3"   
+AUDIO_PATH = "sample_voice_telugu.wav"   
 WHISPER_MODEL = "turbo"           
 
 OUTPUT_DIR = Path("outputs")
