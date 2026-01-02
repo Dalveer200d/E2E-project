@@ -1,0 +1,19 @@
+# wile working on colab or windows this step is mandatory
+# install the required dependencies
+pip install openai-whisper torch transformers sentencepiece ffmpeg-python
+
+# this step for local device only not for colab
+python -m venv venv
+venv\Scripts\activate
+pip install --upgrade pip
+
+Install FFmpeg (mandatory)
+Windows:
+Download from https://ffmpeg.org
+ → add FFmpeg's bin folder to PATH variables
+
+
+
+
+
+
